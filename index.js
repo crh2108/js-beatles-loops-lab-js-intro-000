@@ -13,5 +13,5 @@ function johnLennonFacts(lennonfacts) { //parameter is this array
     lennonfacts.push(lennonfacts[i] + '!!!');
     i++;
   }
-  return lennonfacts
+  return lennonfacts;
 }
