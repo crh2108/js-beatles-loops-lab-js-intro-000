@@ -22,7 +22,7 @@ function iLoveTheBeatles(n) { //parameter is a number
   var lovearray = new Array(); //create a new empty array
   do {
     lovearray.push('I love the Beatles!') //add this string to array
-    n++
-  } while (n < 15)
+    n++ //and increment the number
+  } while (n < 15) //repeat the do code, adding another string element, until n=15
   return lovearray
 }
