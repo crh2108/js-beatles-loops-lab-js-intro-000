@@ -10,7 +10,7 @@ function johnLennonFacts(lennonfacts) { //parameter is this array
   var lennonfacts = new Array();
   let i = 0;
   while (i < lennonfacts.length) {
-    lennonfacts[i] = '${lennonfacts[i]}' + '!!!';
+    lennonfacts.push('${lennonfacts[i]}' + '!!!');
     i++;
   }
   return lennonfacts
