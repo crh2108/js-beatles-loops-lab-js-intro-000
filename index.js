@@ -23,6 +23,6 @@ function iLoveTheBeatles(n) { //parameter is a number
   do {
     lovearray.push('I love the Beatles!') //add this string to array
     n++
-  } while (n < 5)
+  } while (n < 15)
   return lovearray
 }
