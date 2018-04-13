@@ -7,10 +7,10 @@ function theBeatlesPlay(musicians, instruments) { //parameters are these two arr
 }
 
 function johnLennonFacts(lennonfacts) { //parameter is this array
-  let i = 0;
-  while (i < lennonfacts.length) {
-    lennonfacts[i] = lennonfacts[i] + '!!!';
-    i++;
+  let i = 0; //set the index
+  while (i < lennonfacts.length) { //for each element in array
+    lennonfacts[i] = lennonfacts[i] + '!!!'; //update the value for that element to include '!!!'
+    i++; //increase index til i = length
   }
   return lennonfacts;
 }
